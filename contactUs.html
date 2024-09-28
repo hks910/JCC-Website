@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <title>Home Page</title>
+</head>
+<body>
+  <div class="navbar" id="navbar">
+    <img src="k.png" alt="" class="balancing">
+    <div class="hamburger" id="burger">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="nav-links" id="nav-links">
+      <a href="home.html" class="elemenN">HOME</a>
+      <a href="events.html"class=elemenN>EVENT</a>
+      <a href="priceList.html"class=elemenN>PRICE LIST</a>
+      <a href="aboutUs.html"class="elemenN">ABOUT US</a>
+      <a href="contactUs.html" class="contactUs" id="a1">CONTACT US</a>
+    </div>
+  </div>
+
+
+      <div class = "header">
+        <div class = "img1">
+          <div class="banner-carousel">
+            <div class="banner-slide active">
+                <img src="banner_image-images-2-2.jpg" alt="Banner 1">
+                <p1 class="headerText">Feel Free to Contact Us Without Hesitation. </p1>
+                <p1 class="headersubText">At JCC, we value open communication and are always here to assist you. Feel free to contact us without any hesitation. Whether you have inquiries, need more information, or require assistance with our services, our dedicated team is ready to provide you with the support you need.</p1>
+                  <p5 class="seeMore">Scroll down to see more information <br> <button class="buttond" onClick="scrollToForm()">
+                    <span>scroll down </span>
+                    <svg width="34" height="34" viewBox="0 0 74 74" fill="none">
+                  
+                  </svg>
+                </button><p5>
+            </div>
+   
+  
+
+        </div>
+        </div>
+        </div>
+
+
+        <div class="form-back">
+          <div class="text1Upcoming">If you want to contact us, please fill the table below!</div>
+          <div class="container">
+            <form action="" method="GET" id="contactUs" onsubmit="validation(event)">
+              <label for="name">Name</label>
+              <input type="text" id="uname" name="name" placeholder="Your name.." class="input-field">
+              
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email.." class="input-field">
+              
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" name="phone" placeholder="Your Phone Number.." class="input-field">
+              
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message.." class="input-field message-field"></textarea>
+              
+              <label for="conmethod">Preferred contact method</label>
+              <select id="conmethod" name="conmethod" placeholder="Select your preferred contact method.." class="input-field">
+                <option value="phone">phone</option>
+                <option value="email">email</option>
+              </select>
+              
+              <button type="submit" class="submit-button">Submit</button>
+            </form>
+          </div>
+        </div>
+    
+
+
+      
+        <div class="footer">
+          <div class="balancingf">
+            <img src="k.png" alt="" class="balancingF"  >
+            <p class="textfooter1">Jockey's Conference Center</p>
+          </div>
+          <p class="textfooter2">Our Address: <br><br>456 Jenderal Sudirman Street, Karet Tengsin, Tanah Abang Central Jakarta 10220</p>
+          <p class="textfooter3">Our contact : <br><br> Fax&emsp;&emsp;: 021-7788294 <br>Email&emsp;: jcc@gmail.com <br><br>
+            <img src="Screenshot 2023-05-26 181338.png" alt="" class="icon">
+            <img src="Screenshot 2023-05-26 181355.png" alt="" class="icon">
+              <img src="Screenshot 2023-05-26 181413.png" alt="" class="icon">
+              <img src="Screenshot 2023-05-26 181451.png" alt="" class="icon">
+              <img src="Screenshot 2023-05-26 182211.png" alt="" class="icon">
+          </p>
+          <div class="copyright">
+            © 2023 - Jockey's Conference Center  | All Rights Reserved</div>
+      </div>
+
+
+
+  
+      
+  
+
+</body>
+
+<script src="effect.js"></script>
+
+</html> 
